@@ -78,5 +78,5 @@ Techniques like Singular Value Decomposition (SVD) or Non-negative Matrix Factor
 #### Gradient Boosting:
 Gradient boosting algorithms, such as XGBoost, can be used to predict and impute missing values. These models can handle missing values natively or can be used to predict missing values based on observed data.
 
-for all the above-mentioned methods check out the [Jupyter notebook]()
+for all the above-mentioned methods check out the [Jupyter notebook](https://github.com/BhadraNivedita/Simple-imputation-technique-in-Python/blob/main/Simple%20imputation%20technique.ipynb)
 
