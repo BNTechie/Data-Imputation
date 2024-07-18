@@ -58,17 +58,23 @@ Replace missing values with the next value in the column.
 
 K-Nearest Neighbors (KNN) Imputation fills missing values by finding the k-nearest neighbors of the missing data point and averaging their values. This method leverages the similarity between data points to provide more accurate imputations.
 
+Besides K-Nearest Neighbors (KNN) imputation, several other machine learning techniques can be used for missing value imputation:
 
-There are some ML techniques for imputation e.g., 
+#### Multiple Imputation by Chained Equations (MICE): 
+This technique involves creating multiple imputations (filled-in datasets) by modeling each feature with missing values as a function of other features. It is an iterative method that accounts for uncertainty in missing values.
 
-#### Multiple Imputation by Chained Equations (MICE)
+#### Random Forest Imputation: 
+This method uses the random forest algorithm to predict and impute missing values. A random forest model is trained on the observed data, and the missing values are imputed based on the model’s predictions.
 
-#### Random Forest Imputation
+#### Bayesian Imputation:
+Bayesian approaches use Bayesian statistical methods to impute missing data. This involves specifying a probabilistic model for the data and drawing samples from the posterior distribution to fill in the missing values.
 
-#### Bayesian Imputation
+#### Autoencoder Imputation: 
+Autoencoders, a type of neural network, can be used to learn a compressed representation of the data. Missing values can be imputed by training an autoencoder on the observed data and using the network to predict the missing values.
 
-#### Autoencoder Imputation
+#### Matrix Factorization:
+Techniques like Singular Value Decomposition (SVD) or Non-negative Matrix Factorization (NMF) can be used to impute missing values by approximating the data matrix and filling in the missing entries.
 
-#### Matrix Factorization Imputation
+#### Gradient Boosting:
+Gradient boosting algorithms, such as XGBoost, can be used to predict and impute missing values. These models can handle missing values natively or can be used to predict missing values based on observed data.
 
-#### Gradient Boosting Imputation
