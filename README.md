@@ -57,3 +57,18 @@ Replace missing values with the next value in the column.
 #### K-Nearest Neighbors (KNN) Imputation:
 
 K-Nearest Neighbors (KNN) Imputation fills missing values by finding the k-nearest neighbors of the missing data point and averaging their values. This method leverages the similarity between data points to provide more accurate imputations.
+
+
+There are some ML techniques for imputation e.g., 
+
+#### Multiple Imputation by Chained Equations (MICE)
+
+#### Random Forest Imputation
+
+#### Bayesian Imputation
+
+#### Autoencoder Imputation
+
+#### Matrix Factorization Imputation
+
+#### Gradient Boosting Imputation
